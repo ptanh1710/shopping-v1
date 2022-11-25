@@ -1,0 +1,27 @@
+:root {
+    // Color
+    --primary: #fa1aff;
+    --white: #fff;
+    --black: #000;
+
+    // Size
+    --header-default-layout-width: 1350px;
+    --header-default-layout-height: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-rendering: optimizeSpeed;
+}
+
+body {
+    font-size: 67.5%;
+}
